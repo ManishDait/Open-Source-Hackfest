@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Good First Issue Finder</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <nav class="navbar">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Bookmarks</a></li>
+      <li><a href="https://github.com/yourusername/yourrepository" target="_blank">GitHub</a></li>
+    </ul>
+  </nav>
+  <div class="center-box">
+    <div class="container">
+      <h1>Good First Issue Finder</h1>
+      <div class="flex-container">
+        <div class="selection-box">
+          <label for="language">Select Programming Language:</label>
+          <select id="language">
+            <option value="python">Python</option>
+            <option value="javascript">JavaScript</option>
+            <option value="java">Java</option>
+             <option value="python">Python</option>
+             <option value="python">Python</option>
+             <option value="python">Python</option>
+             <option value="python">Python</option>
+             <option value="python">Python</option>
+             <option value="python">Python</option>
+            <!-- Add more programming languages as needed -->
+          </select>
+        </div>
+        <div class="selection-box">
+          <label for="difficulty">Rate Difficulty (1-5):</label>
+          <input type="number" id="difficulty" min="1" max="5">
+        </div>
+        <button id="findIssueButton">Search</button>
+      </div>
+      <p id="issueResult"></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
