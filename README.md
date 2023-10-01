@@ -1,8 +1,6 @@
-# Open-Source-Hackfest
-
 # IssueSpotter
 
-![Project Image/GIF](https://your-image-url-here.com)
+![Project Image/GIF](https://github.com/Mohiit70/Open-Source-Hackfest/blob/main/images/Add%20a%20heading.png?raw=true)
 
 ## Introduction
 
