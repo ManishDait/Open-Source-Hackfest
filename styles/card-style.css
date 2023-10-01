@@ -1,0 +1,80 @@
+.repo-container {
+    padding: 1em 1em;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: .8em;
+}
+.header button {
+    background-color: transparent;
+    border: solid .1em var(--secondary-font-color);
+    color: var(--secondary-font-color);
+    font-size: .9rem;
+    padding: .2em .8em;
+    border-radius: 1em;
+    cursor: pointer;
+}
+.header button:hover {
+    border: solid .1em var(--font-hover-color);
+    color: var(--font-hover-color);
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: .5em;
+    padding: 1em;
+    border: solid .1em var(--border-color);
+    border-radius: .5em;
+    cursor: pointer;
+}
+.card h4 {
+    font-size: 1.3rem;
+}
+.description {
+    font-size: .9rem;
+    text-align: justify;
+}
+.lang {
+    font-size: .9rem;
+    color: var(--font-hover-color);
+}
+
+.fa-github {
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.fa-github:hover {
+    color: var(--font-hover-color);
+}
+
+.card:hover {
+    background-color: var(--card-hover-color);
+}
+
+.issue {
+    border-top: solid .1em var(--border-color);
+    list-style-type: none;
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    padding: .5em;
+}
+.issue li {
+    padding: .5em .2em;
+}
+.issue li a:hover {
+    color: rgb(51,203,154);
+}
