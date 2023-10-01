@@ -5,8 +5,6 @@
 
 IssueSpotter is a web application designed to help developers discover and contribute to open-source projects with ease. It simplifies the process of finding projects aligned with your interests and expertise. This project was developed as part of an MLH-affiliated hackathon.
 
-🚀 [Live Demo](https://your-live-demo-link-here.com)
-
 ## Features
 
 - **Select Languages**: Choose from a variety of programming languages.
@@ -17,8 +15,7 @@ IssueSpotter is a web application designed to help developers discover and contr
   
 ## Technologies Used
 
-🔧 Built with HTML, CSS, and JavaScript.
-💻 Hosted on .
+🔧 Built with HTML, CSS, and JavaScript, Nodejs
 
 ## Getting Started
 
@@ -61,13 +58,6 @@ To maintain a respectful and inclusive community, we follow a [Code of Conduct](
 
 📝 This project is licensed under Apache License 2.0
 
-## Acknowledgments
-
-Special thanks to [List any acknowledgments or credits].
-
 ## Explore More
-
-- [Website](https://your-website-link-here.com)
-  
 
 Begin your open-source journey and contribute effectively with IssueSpotter!
