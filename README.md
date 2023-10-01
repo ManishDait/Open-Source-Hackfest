@@ -4,19 +4,9 @@
 
 ## Introduction
 
-IssueSpotter is a web application designed to help developers discover and contribute to open-source projects with ease. It simplifies the process of finding projects aligned with your interests and expertise.
-
-This project was developed as part of an MLH-affiliated hackathon.
-
-![Animated GIF](https://your-animated-gif-url-here.com)
+IssueSpotter is a web application designed to help developers discover and contribute to open-source projects with ease. It simplifies the process of finding projects aligned with your interests and expertise. This project was developed as part of an MLH-affiliated hackathon.
 
 🚀 [Live Demo](https://your-live-demo-link-here.com)
-
-## Technologies Used
-
-🔧 Built with HTML, CSS, and JavaScript.
-💻 Hosted on GitHub Pages.
-
 
 ## Features
 
@@ -25,6 +15,11 @@ This project was developed as part of an MLH-affiliated hackathon.
 - **Discover Projects**: Find open-source projects that align with your interests and skill level.
 - **Bookmark Issues**: Save issues for future reference.
 - **Latest Issues**: Stay updated with the newest issues across projects.
+  
+## Technologies Used
+
+🔧 Built with HTML, CSS, and JavaScript.
+💻 Hosted on .
 
 ## Getting Started
 
