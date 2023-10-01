@@ -5,46 +5,42 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Good First Issue Finder</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./styles/styles.css">
+  <link rel="stylesheet" href="./styles/card-style.css">
+  <script type="module" defer src="./js/index.js"></script>
 </head>
 
 <body>
-  <nav class="navbar">
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Bookmarks</a></li>
-      <li><a href="https://github.com/yourusername/yourrepository" target="_blank">GitHub</a></li>
-    </ul>
-  </nav>
-  <div class="center-box">
-    <div class="container">
-      <h1>Good First Issue Finder</h1>
-      <div class="flex-container">
-        <div class="selection-box">
-          <label for="language">Select Programming Language:</label>
-          <select id="language">
-            <option value="python">Python</option>
-            <option value="javascript">JavaScript</option>
-            <option value="java">Java</option>
-             <option value="python">Python</option>
-             <option value="python">Python</option>
-             <option value="python">Python</option>
-             <option value="python">Python</option>
-             <option value="python">Python</option>
-             <option value="python">Python</option>
-            <!-- Add more programming languages as needed -->
-          </select>
+  <div class="navbar center">
+    <h1>Issue<span style="color: rgb(51,203,154);">Spotter</span></h1>
+  </div>
+
+  <div class="container">
+    <div class="side-nav">
+      <div class="filters">
+        <p>FILTER BY LANGUAGES</p>
+        <br>
+        <div id="filters-button">
+          <button class="badge" id="javaf">Java</button>
+          <button class="badge" id="gof">Go</button>
+          <button class="badge" id="pyf">Python</button>
+          <button class="badge" id="jsf">Javascript</button>
+          <button class="badge" id="rub.f">Ruby</button>
+          <button class="badge" id="cf">C</button>
+          <button class="badge" id="cpf">C++</button>
+          <button class="badge" id="tsf">TYpescript</button>
+          <button class="badge" id="all">All</button>
         </div>
-        <div class="selection-box">
-          <label for="difficulty">Rate Difficulty (1-5):</label>
-          <input type="number" id="difficulty" min="1" max="5">
-        </div>
-        <button id="findIssueButton">Search</button>
       </div>
-      <p id="issueResult"></p>
+    </div>
+
+    <div class="main" id="main">
+      <div class="repo-container" id="repo-container">
+        
+      </div>
     </div>
   </div>
-  <script src="script.js"></script>
 </body>
 
 </html>

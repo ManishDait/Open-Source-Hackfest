@@ -1,0 +1,80 @@
+:root {
+  --background-color: rgb(22,24,29);
+  --font-color: rgb(255, 255, 255);
+  --secondary-font-color: rgb(231, 231, 231);
+  --font-hover-color: rgb(121, 126, 128);
+  --card-hover-color: rgb(44,48,58);
+  --border-color: rgb(44,48,58);
+  --side-font-color: rgb(80,86,90);
+  --default-font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+  height: 100%;
+}
+
+*{
+  font-family: var(--default-font-family);
+  padding: 0;
+  margin: 0;
+  color: var(--font-color);
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar {
+  padding: .8em 0px;
+  border-bottom: solid .1em var(--border-color);
+}
+.navbar h1 {
+  font-size: 1.5rem;
+}
+
+.container {
+  display: flex;
+}
+
+.side-nav {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: .8em .5em;
+}
+.filters{
+  flex: 1
+}
+#filters-button {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5em;
+}
+.side-nav p {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--side-font-color);
+}
+
+.main {
+  flex: 1;
+  border-left: solid .1em var(--border-color);
+  padding: .8em .5em;
+}
+
+.badge {
+  border: none;
+  background-color: transparent;
+  color: rgb(51,203,154);
+  border: solid .1em rgb(51,203,154);
+  padding: .3em .6em;
+  cursor: pointer;
+}
