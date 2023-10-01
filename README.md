@@ -1,4 +1,3 @@
-# IssueSpotter
 
 ![Project Image/GIF](https://github.com/Mohiit70/Open-Source-Hackfest/blob/main/images/Add%20a%20heading.png?raw=true)
 
@@ -56,11 +55,11 @@ Please make sure to follow our Code of Conduct and Contributing Guidelines when 
 
 ## Code of Conduct
 
-To maintain a respectful and inclusive community, we follow a [Code of Conduct](link-to-code-of-conduct.md). Please read and adhere to it.
+To maintain a respectful and inclusive community, we follow a [Code of Conduct](CODE_OF_CONDUCT.md). Please read and adhere to it.
 
 ## License
 
-📝 This project is licensed under
+📝 This project is licensed under Apache License 2.0
 
 ## Acknowledgments
 
@@ -69,7 +68,6 @@ Special thanks to [List any acknowledgments or credits].
 ## Explore More
 
 - [Website](https://your-website-link-here.com)
-- 
----
+  
 
 Begin your open-source journey and contribute effectively with IssueSpotter!
